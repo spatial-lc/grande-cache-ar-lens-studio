@@ -3,7 +3,7 @@
     "document_id": "2gSYfdHerv0bxhFEiS13",
     "original_document_id": "uV-hdg9XrBms607exxOt",
     "version": "27",
-    "lastChanged": "1622522749994",
+    "lastChanged": "1622524591882",
     "preview": "icon.png",
     "videoPreview": "preview.mp4",
     "videoPreviewUpdateTime": "",
@@ -47,6 +47,17 @@
                     ],
                     [
                         "Materials"
+                    ],
+                    [
+                        "Materials_Custom"
+                    ],
+                    [
+                        "Materials_Custom",
+                        "Mobile Foliage Textures"
+                    ],
+                    [
+                        "Materials_Custom",
+                        "Mud"
                     ],
                     [
                         "Meshes"
@@ -13979,7 +13990,8 @@
                 "568": "1622495687301115:2067337",
                 "569": "1622495687303535:2067341",
                 "570": "1622495687305104:2067343",
-                "571": "1622512564924737:225171"
+                "571": "1622512564924737:225171",
+                "572": "1622524327883284:1846636"
             }
         },
         "LayerComponent": {
@@ -23545,7 +23557,7 @@
                     },
                     {
                         "k": "7764",
-                        "v": "f1ada068dd860516cac53a55f02241ec"
+                        "v": "9df5de210e7e1548e23fffa4d9c20d85"
                     },
                     {
                         "k": "7797",
@@ -23677,7 +23689,7 @@
                     },
                     {
                         "k": "7847",
-                        "v": "93f582bc19eedaa49d300b90c5b29c99"
+                        "v": "0c6d6f3c65cc3f1fe13871828bae93e2"
                     },
                     {
                         "k": "7848",
@@ -23829,7 +23841,7 @@
                     },
                     {
                         "k": "7979",
-                        "v": "6aa85de143a237eb96c9b61de2727c53"
+                        "v": "85a75c5d794beec9b0077e0ab123bdf9"
                     },
                     {
                         "k": "7980",
@@ -24133,7 +24145,7 @@
                         "isFolder": "true",
                         "lastModified": "2021-05-31T13:37:27",
                         "name": "Public",
-                        "hash": "0b772be812c5fecdb517b8294852fc02",
+                        "hash": "98cde0e6c314c24c5f261070b370eb0c",
                         "children": [
                             {
                                 "isFolder": "true",
@@ -24650,7 +24662,7 @@
                                 "isFolder": "true",
                                 "lastModified": "2021-05-31T13:37:28",
                                 "name": "Materials",
-                                "hash": "dc265be8aed53eb66c8f8fe7bc8ab7c1",
+                                "hash": "0422cb5d3000bb6a1b6e3abaaed99e73",
                                 "children": [
                                     {
                                         "isFolder": "false",
@@ -24710,16 +24722,16 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2021-05-31T22:39:02",
+                                        "lastModified": "2021-05-31T22:49:18",
                                         "name": "Graph Matte Shadow.lsmat",
-                                        "hash": "b5848a63c8f4a8944b846d4af2dddc0e",
+                                        "hash": "d2c800bba3d652c6c4f8e6e6ec9e9666",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2021-05-31T22:39:02",
+                                        "lastModified": "2021-05-31T22:49:18",
                                         "name": "Soap Bubble.lsmat",
-                                        "hash": "9c902352c1bb24f7d845e5168ac7bf72",
+                                        "hash": "cf20f28072377186f36e822290288289",
                                         "children": ""
                                     }
                                 ]
@@ -28011,7 +28023,7 @@
                                 "isFolder": "true",
                                 "lastModified": "2021-05-31T13:37:29",
                                 "name": "UI",
-                                "hash": "fa5463c1449b33e0f370b5ea5dea1b24",
+                                "hash": "297d6e6b83c403843078ef22c08e0970",
                                 "children": [
                                     {
                                         "isFolder": "false",
@@ -28024,7 +28036,7 @@
                                         "isFolder": "true",
                                         "lastModified": "2021-05-31T13:37:29",
                                         "name": "Resources",
-                                        "hash": "07504e8aaedd02e4f1c4264519bc1c39",
+                                        "hash": "8e114314fac1c985650241bee68dc30b",
                                         "children": [
                                             {
                                                 "isFolder": "false",
@@ -28110,7 +28122,7 @@
                                                 "isFolder": "true",
                                                 "lastModified": "2021-05-31T13:37:29",
                                                 "name": "Materials",
-                                                "hash": "927932f7dbe560b6e9a9840b50f5f727",
+                                                "hash": "1038c1443eaba7df470cf40f0af53e20",
                                                 "children": [
                                                     {
                                                         "isFolder": "false",
@@ -28128,9 +28140,9 @@
                                                     },
                                                     {
                                                         "isFolder": "false",
-                                                        "lastModified": "2021-05-31T22:39:02",
+                                                        "lastModified": "2021-05-31T22:49:18",
                                                         "name": "Palette Material.lsmat",
-                                                        "hash": "8369106f2a8a9239a3be7704fb6b7afd",
+                                                        "hash": "584d806db98ac238cab5f3497ceb6f74",
                                                         "children": ""
                                                     }
                                                 ]
@@ -51242,15 +51254,8 @@
         },
         "InspectorController": {
             "selection": {
-                "resources": [
-                    {
-                        "uid": "1622495240814922:1835923",
-                        "path_list": [
-                            "Materials_Custom",
-                            "Mud",
-                            "Mud"
-                        ]
-                    }
+                "objects": [
+                    "1536880756111365:559885"
                 ]
             }
         },
