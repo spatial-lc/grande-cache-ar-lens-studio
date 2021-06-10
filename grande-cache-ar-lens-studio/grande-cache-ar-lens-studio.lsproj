@@ -3,7 +3,7 @@
     "document_id": "2gSYfdHerv0bxhFEiS13",
     "original_document_id": "uV-hdg9XrBms607exxOt",
     "version": "27",
-    "lastChanged": "1623092415509",
+    "lastChanged": "1623350464381",
     "preview": "icon.png",
     "videoPreview": "preview.mp4",
     "videoPreviewUpdateTime": "",
@@ -66,11 +66,12 @@
                         "Models"
                     ],
                     [
-                        "Scripts"
+                        "Scripts",
+                        "EffectControllers"
                     ],
                     [
                         "Scripts",
-                        "EffectControllers"
+                        "Interaction_Tap_Zoom V2 Dino"
                     ],
                     [
                         "Textures"
@@ -123,7 +124,6 @@
                     "1536862115106055:432549",
                     "1536866506326733:1356754",
                     "1536866828923838:1532971",
-                    "1536880741695965:548272",
                     "1536880741699534:548376",
                     "1536880756111365:559885",
                     "1536941689094362:247335",
@@ -141,20 +141,19 @@
                     "1537561700213191:533907",
                     "1537561700282901:534098",
                     "1537808582450079:243007",
+                    "1563476065529019:128386",
                     "1620961952522544:765494",
                     "1620961952650736:765585",
                     "1620961952662834:765633",
                     "1621208444902432:6556027",
+                    "1621524036726877:12637819",
                     "1621524036729104:12637903",
-                    "1621524402319558:12881949",
                     "1621909748022626:220916",
                     "1622486944338535:613638",
                     "1622486958025467:615602",
                     "1622486958031976:616210",
                     "1622490258007184:407296",
-                    "1622495685764338:2066028",
-                    "1622495685806616:2066183",
-                    "1622512564924737:225171"
+                    "1622495685806616:2066183"
                 ]
             ]
         },
@@ -220,7 +219,7 @@
             "active_graph_asset": "1599159611570706:789308"
         },
         "Script::UiComponent": {
-            "active_graph_asset": "1621194210975535:100452"
+            "active_graph_asset": "1623347763988238:319639"
         }
     },
     "model": {
@@ -13249,6 +13248,14 @@
                     "sourceFilePath": "",
                     "additionalProperties": "",
                     "flags": "1"
+                },
+                {
+                    "resId": "3100",
+                    "uid": "1623347763988238:319639",
+                    "name": "Files\/File1510",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
                 }
             ],
             "MaterialUpdateManager": {
@@ -14002,7 +14009,8 @@
                 "572": "1622524327883284:1846636",
                 "573": "1622956692997650:753660",
                 "574": "1622957854489521:3836070",
-                "575": "1622958527847722:4784535"
+                "575": "1622958527847722:4784535",
+                "576": "1623262600454482:338808"
             }
         },
         "LayerComponent": {
@@ -19440,6 +19448,14 @@
                 {
                     "k": "1509",
                     "v": "Files\/File1509.js"
+                },
+                {
+                    "k": "1510",
+                    "v": "Files\/File1510"
+                },
+                {
+                    "k": "1511",
+                    "v": "Files\/File1511.lsscript"
                 }
             ]
         },
@@ -21799,6 +21815,10 @@
                     {
                         "k": "8065",
                         "v": "TweenSyncHelper.js"
+                    },
+                    {
+                        "k": "8066",
+                        "v": "Scripts\/Interaction_Tap_Zoom V2 Dino.lsscript"
                     }
                 ],
                 "hashes": [
@@ -23576,7 +23596,7 @@
                     },
                     {
                         "k": "7764",
-                        "v": "04828017d0e934e2a160fee76a9cbf14"
+                        "v": "d74d4c6d2a45c93bc4aedc3a10ade202"
                     },
                     {
                         "k": "7797",
@@ -23644,7 +23664,7 @@
                     },
                     {
                         "k": "7821",
-                        "v": "dca7463a64a32e61f8202bc1b4b0f64c"
+                        "v": "08b316cd1ad326ca0defdcc8f2146702"
                     },
                     {
                         "k": "7826",
@@ -23708,7 +23728,7 @@
                     },
                     {
                         "k": "7847",
-                        "v": "36ffb2da391df70fe7e390c269ceeb05"
+                        "v": "5b2ada037403ce70f7cd299f7922cfba"
                     },
                     {
                         "k": "7848",
@@ -23860,7 +23880,7 @@
                     },
                     {
                         "k": "7979",
-                        "v": "389e489cad44675ab17a090f4ad5629b"
+                        "v": "996cc548e676606d30798dffae9869de"
                     },
                     {
                         "k": "7980",
@@ -24156,7 +24176,7 @@
                     },
                     {
                         "k": "8066",
-                        "v": "524a8dbfee57a9715f30a5e104140ba3"
+                        "v": "b850b40e04df201efb09549074c419ee"
                     }
                 ],
                 "publicState": {
@@ -24164,7 +24184,7 @@
                         "isFolder": "true",
                         "lastModified": "2021-05-31T13:37:27",
                         "name": "Public",
-                        "hash": "9e3d6fc2729dad3aaccdb1c163bb1be1",
+                        "hash": "15bdc1b8ee73d627b53f3bc8de05a9c6",
                         "children": [
                             {
                                 "isFolder": "true",
@@ -24681,7 +24701,7 @@
                                 "isFolder": "true",
                                 "lastModified": "2021-05-31T13:37:28",
                                 "name": "Materials",
-                                "hash": "861202c284b9138e9c930f33ba3e9ebf",
+                                "hash": "29aa46ba8cdeb1f70c27297638a05eb3",
                                 "children": [
                                     {
                                         "isFolder": "false",
@@ -24741,16 +24761,16 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2021-06-06T19:01:24",
+                                        "lastModified": "2021-06-09T12:31:06",
                                         "name": "Graph Matte Shadow.lsmat",
-                                        "hash": "3b13537b7f78a6469b09999625391a2b",
+                                        "hash": "6fe2db1b1d1d4e7ca93d87c0a651ddd6",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2021-06-06T19:01:24",
+                                        "lastModified": "2021-06-09T12:31:08",
                                         "name": "Soap Bubble.lsmat",
-                                        "hash": "7a3d863fdb87e83048a569e941bca85f",
+                                        "hash": "e74b3c594d78935a7571323e97541da2",
                                         "children": ""
                                     }
                                 ]
@@ -27742,7 +27762,7 @@
                                 "isFolder": "true",
                                 "lastModified": "2021-05-31T13:37:28",
                                 "name": "Scripts",
-                                "hash": "9868d6df2d370c9662f630e0b97e4c3b",
+                                "hash": "ab15268390860fb2492a2c6d10f883ef",
                                 "children": [
                                     {
                                         "isFolder": "true",
@@ -27824,13 +27844,6 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2021-05-25T16:20:10",
-                                        "name": "Interaction_Tap_Zoom V2.lsscript",
-                                        "hash": "dca7463a64a32e61f8202bc1b4b0f64c",
-                                        "children": ""
-                                    },
-                                    {
-                                        "isFolder": "false",
                                         "lastModified": "2021-04-06T06:10:24",
                                         "name": "Move Object.js",
                                         "hash": "f307bb1165d506c9a389009f65919191",
@@ -27862,6 +27875,20 @@
                                         "lastModified": "2021-01-22T23:03:52",
                                         "name": "AddCustomTriggerResponse.js",
                                         "hash": "a4484374029ad9e113aac8a0304f0d61",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2021-06-09T12:31:06",
+                                        "name": "Interaction_Tap_Zoom V2.lsscript",
+                                        "hash": "1f3d98bf61daf75e626fd2143875a14b",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2021-06-10T11:54:26",
+                                        "name": "Interaction_Tap_Zoom V2 Dino.lsscript",
+                                        "hash": "dca7463a64a32e61f8202bc1b4b0f64c",
                                         "children": ""
                                     }
                                 ]
@@ -28042,7 +28069,7 @@
                                 "isFolder": "true",
                                 "lastModified": "2021-05-31T13:37:29",
                                 "name": "UI",
-                                "hash": "ff05f4d27bb72bf3365e32e2eee7c18b",
+                                "hash": "f7392ec76a2603f820baf3ceb15bbb38",
                                 "children": [
                                     {
                                         "isFolder": "false",
@@ -28055,7 +28082,7 @@
                                         "isFolder": "true",
                                         "lastModified": "2021-05-31T13:37:29",
                                         "name": "Resources",
-                                        "hash": "efb0b284fc22ecd92627fca008e5492b",
+                                        "hash": "8029b5a7612ef226d2a2776317a66748",
                                         "children": [
                                             {
                                                 "isFolder": "false",
@@ -28141,7 +28168,7 @@
                                                 "isFolder": "true",
                                                 "lastModified": "2021-05-31T13:37:29",
                                                 "name": "Materials",
-                                                "hash": "705df182278284ffa1e64d4fab2837b5",
+                                                "hash": "d062f9ce89be83e3742af6f48c58c7d6",
                                                 "children": [
                                                     {
                                                         "isFolder": "false",
@@ -28159,9 +28186,9 @@
                                                     },
                                                     {
                                                         "isFolder": "false",
-                                                        "lastModified": "2021-06-06T19:01:24",
+                                                        "lastModified": "2021-06-09T12:31:08",
                                                         "name": "Palette Material.lsmat",
-                                                        "hash": "bbd26fa3ef6befbc29f70f953d7a8bcb",
+                                                        "hash": "a2bf40b503dd6db16667d77894de40ee",
                                                         "children": ""
                                                     }
                                                 ]
@@ -38463,6 +38490,19 @@
                                 "originalId": "18446744073709551615",
                                 "publicId": "7936",
                                 "source": "D:\/Documents for Work\/Grande Cache\/Lens Studio\/AddCustomTriggerResponse.js",
+                                "additional": ""
+                            },
+                            {
+                                "name": "Interaction_Tap_Zoom V2 Dino",
+                                "type": "4",
+                                "subtype": "1",
+                                "resourceId": "3100",
+                                "dependency": "0",
+                                "uid": "1623347763988238:319639",
+                                "fileId": "1510",
+                                "originalId": "1511",
+                                "publicId": "8066",
+                                "source": "C:\/Users\/alexm\/AppData\/Local\/Temp\/Lens Studio-KKviDZ\/\/system\/\/emergencyFiles\/emergencyGraph.lsscript",
                                 "additional": ""
                             }
                         ]
@@ -51292,7 +51332,11 @@
             }
         },
         "InspectorController": {
-            "selection": ""
+            "selection": {
+                "objects": [
+                    "1623262600454482:338808"
+                ]
+            }
         },
         "EffectsController": {
             "1": "",
