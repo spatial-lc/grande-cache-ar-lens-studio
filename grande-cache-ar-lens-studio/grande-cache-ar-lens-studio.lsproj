@@ -3,7 +3,7 @@
     "document_id": "2gSYfdHerv0bxhFEiS13",
     "original_document_id": "uV-hdg9XrBms607exxOt",
     "version": "27",
-    "lastChanged": "1623350464381",
+    "lastChanged": "1623351271506",
     "preview": "icon.png",
     "videoPreview": "preview.mp4",
     "videoPreviewUpdateTime": "",
@@ -102,7 +102,6 @@
                     "1536083419055761:7748",
                     "1536084877877804:23937",
                     "1536088873254287:69444",
-                    "1536101830293889:32582",
                     "1536102318366670:46476",
                     "1536102319055401:47188",
                     "1536171891459214:12176",
@@ -146,8 +145,8 @@
                     "1620961952650736:765585",
                     "1620961952662834:765633",
                     "1621208444902432:6556027",
-                    "1621524036726877:12637819",
                     "1621524036729104:12637903",
+                    "1621524402319558:12881949",
                     "1621909748022626:220916",
                     "1622486944338535:613638",
                     "1622486958025467:615602",
@@ -13426,6 +13425,48 @@
                                     "attachTop": "false"
                                 }
                             }
+                        },
+                        {
+                            "k": "1623351036845613:4284881",
+                            "v": {
+                                "isBasicMode": "false",
+                                "basicModeSetup": {
+                                    "fixWidth": "false",
+                                    "fixHeight": "false",
+                                    "attachBottom": "false",
+                                    "attachLeft": "false",
+                                    "attachRight": "false",
+                                    "attachTop": "false"
+                                }
+                            }
+                        },
+                        {
+                            "k": "1623351036958385:4285161",
+                            "v": {
+                                "isBasicMode": "true",
+                                "basicModeSetup": {
+                                    "fixWidth": "false",
+                                    "fixHeight": "false",
+                                    "attachBottom": "true",
+                                    "attachLeft": "true",
+                                    "attachRight": "true",
+                                    "attachTop": "true"
+                                }
+                            }
+                        },
+                        {
+                            "k": "1623351036993782:4286283",
+                            "v": {
+                                "isBasicMode": "true",
+                                "basicModeSetup": {
+                                    "fixWidth": "true",
+                                    "fixHeight": "true",
+                                    "attachBottom": "false",
+                                    "attachLeft": "false",
+                                    "attachRight": "false",
+                                    "attachTop": "false"
+                                }
+                            }
                         }
                     ],
                     "generalData": ""
@@ -14010,7 +14051,11 @@
                 "573": "1622956692997650:753660",
                 "574": "1622957854489521:3836070",
                 "575": "1622958527847722:4784535",
-                "576": "1623262600454482:338808"
+                "576": "1623262600454482:338808",
+                "577": "1623350976919671:4114710",
+                "578": "1623351036841091:4284875",
+                "579": "1623351036842916:4284877",
+                "580": "1623351036844667:4284879"
             }
         },
         "LayerComponent": {
@@ -23596,7 +23641,7 @@
                     },
                     {
                         "k": "7764",
-                        "v": "d74d4c6d2a45c93bc4aedc3a10ade202"
+                        "v": "8602f2827b0b780f9d310534480cfe51"
                     },
                     {
                         "k": "7797",
@@ -23728,7 +23773,7 @@
                     },
                     {
                         "k": "7847",
-                        "v": "5b2ada037403ce70f7cd299f7922cfba"
+                        "v": "459af924d558fff7e7f315eab968b494"
                     },
                     {
                         "k": "7848",
@@ -23880,7 +23925,7 @@
                     },
                     {
                         "k": "7979",
-                        "v": "996cc548e676606d30798dffae9869de"
+                        "v": "7dc2372ae8ba114d7b84666dd74a981b"
                     },
                     {
                         "k": "7980",
@@ -24176,7 +24221,7 @@
                     },
                     {
                         "k": "8066",
-                        "v": "b850b40e04df201efb09549074c419ee"
+                        "v": "b303923d96ab0f670b8bf66f96aab072"
                     }
                 ],
                 "publicState": {
@@ -24184,7 +24229,7 @@
                         "isFolder": "true",
                         "lastModified": "2021-05-31T13:37:27",
                         "name": "Public",
-                        "hash": "15bdc1b8ee73d627b53f3bc8de05a9c6",
+                        "hash": "7372229fcc385e3c3ae3929fab6a1504",
                         "children": [
                             {
                                 "isFolder": "true",
@@ -24701,7 +24746,7 @@
                                 "isFolder": "true",
                                 "lastModified": "2021-05-31T13:37:28",
                                 "name": "Materials",
-                                "hash": "29aa46ba8cdeb1f70c27297638a05eb3",
+                                "hash": "3715e20658e89f9d18648219f5ae8f23",
                                 "children": [
                                     {
                                         "isFolder": "false",
@@ -24761,16 +24806,16 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2021-06-09T12:31:06",
+                                        "lastModified": "2021-06-10T12:51:58",
                                         "name": "Graph Matte Shadow.lsmat",
-                                        "hash": "6fe2db1b1d1d4e7ca93d87c0a651ddd6",
+                                        "hash": "6f270ed61ec19cf5ce590601786205c3",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2021-06-09T12:31:08",
+                                        "lastModified": "2021-06-10T12:51:58",
                                         "name": "Soap Bubble.lsmat",
-                                        "hash": "e74b3c594d78935a7571323e97541da2",
+                                        "hash": "cebe1ff739b83de10e9190a1fb62e815",
                                         "children": ""
                                     }
                                 ]
@@ -27762,7 +27807,7 @@
                                 "isFolder": "true",
                                 "lastModified": "2021-05-31T13:37:28",
                                 "name": "Scripts",
-                                "hash": "ab15268390860fb2492a2c6d10f883ef",
+                                "hash": "bfac3676eba53c0ef1373b96e73a125b",
                                 "children": [
                                     {
                                         "isFolder": "true",
@@ -27879,16 +27924,16 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2021-06-09T12:31:06",
+                                        "lastModified": "2021-06-10T12:40:58",
                                         "name": "Interaction_Tap_Zoom V2.lsscript",
-                                        "hash": "1f3d98bf61daf75e626fd2143875a14b",
+                                        "hash": "08b316cd1ad326ca0defdcc8f2146702",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2021-06-10T11:54:26",
+                                        "lastModified": "2021-06-10T12:51:58",
                                         "name": "Interaction_Tap_Zoom V2 Dino.lsscript",
-                                        "hash": "dca7463a64a32e61f8202bc1b4b0f64c",
+                                        "hash": "b303923d96ab0f670b8bf66f96aab072",
                                         "children": ""
                                     }
                                 ]
@@ -28069,7 +28114,7 @@
                                 "isFolder": "true",
                                 "lastModified": "2021-05-31T13:37:29",
                                 "name": "UI",
-                                "hash": "f7392ec76a2603f820baf3ceb15bbb38",
+                                "hash": "d881d805e6e04b35c54760efe161e09c",
                                 "children": [
                                     {
                                         "isFolder": "false",
@@ -28082,7 +28127,7 @@
                                         "isFolder": "true",
                                         "lastModified": "2021-05-31T13:37:29",
                                         "name": "Resources",
-                                        "hash": "8029b5a7612ef226d2a2776317a66748",
+                                        "hash": "2baac2203c69377778e2b4ab9cdb1f8d",
                                         "children": [
                                             {
                                                 "isFolder": "false",
@@ -28168,7 +28213,7 @@
                                                 "isFolder": "true",
                                                 "lastModified": "2021-05-31T13:37:29",
                                                 "name": "Materials",
-                                                "hash": "d062f9ce89be83e3742af6f48c58c7d6",
+                                                "hash": "355a1ae366c833f4151c18fe065d6e65",
                                                 "children": [
                                                     {
                                                         "isFolder": "false",
@@ -28186,9 +28231,9 @@
                                                     },
                                                     {
                                                         "isFolder": "false",
-                                                        "lastModified": "2021-06-09T12:31:08",
+                                                        "lastModified": "2021-06-10T12:51:58",
                                                         "name": "Palette Material.lsmat",
-                                                        "hash": "a2bf40b503dd6db16667d77894de40ee",
+                                                        "hash": "996feceead527ccfbb8c4d81717e0fd8",
                                                         "children": ""
                                                     }
                                                 ]
@@ -51332,11 +51377,7 @@
             }
         },
         "InspectorController": {
-            "selection": {
-                "objects": [
-                    "1623262600454482:338808"
-                ]
-            }
+            "selection": ""
         },
         "EffectsController": {
             "1": "",
